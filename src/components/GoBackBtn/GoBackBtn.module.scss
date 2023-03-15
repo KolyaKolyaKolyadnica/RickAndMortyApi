@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  width: 108px;
+  height: 24px;
+  left: 24px;
+  top: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  
+  @media (min-width: 922px) {
+    left: 50px;
+    top: 21px;
+  }
+}
+.arrow{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+.text {
+  width: 76px;
+  height: 21px;
+  left: 56px;
+  top: 25px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+
+  @media (min-width: 922px) {
+    left: 82px;
+    top: 23px;
+  }
+}

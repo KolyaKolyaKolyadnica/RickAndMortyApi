@@ -1,0 +1,102 @@
+.characterCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 142px;
+}
+.avatarContainer {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 16px;
+  border: 5px solid #f2f2f7;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.name {
+  /*custom*/
+  width: 500px;
+  min-height: 50px;
+  margin-bottom: 48px;
+  justify-content: center;
+  background-color: #081f3200;
+  border-radius: 25px;
+  animation: name linear 3s infinite;
+ 
+  @keyframes name {
+    0% {
+      background-color: #081f3200;
+    }
+
+    50% {
+      background-color: #081f32;
+    }
+
+    100% {
+      background-color: #081f3200;
+    }
+  }
+}
+.info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #8e8e93;
+
+  /*custom*/
+  margin-bottom: 48px;
+}
+
+.list {
+  list-style: none;
+}
+.listItem {
+  background: #ffffff;
+  padding: 9px 0px 12px 16px;
+  width: 413px;
+}
+.listItemKey {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #081f32;
+
+  /*custom*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.listItemValue {
+  /*custom*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: #6e798c00;
+  border-radius: 25px;
+  height: 14px;
+  width: 300px;
+
+  animation: listItemValue linear 3s infinite;
+  
+  @keyframes listItemValue {
+    0% {
+      background-color: #6e798c00;
+    }
+
+    50% {
+      background-color: #6e798c;
+    }
+
+    100% {
+      background-color: #6e798c00;
+    }
+  }
+}

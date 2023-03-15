@@ -1,0 +1,12 @@
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+
+  gap: 24px 32px;
+
+  @media (min-width: 1440px) { 
+    gap: 24px 20px;
+  }
+}

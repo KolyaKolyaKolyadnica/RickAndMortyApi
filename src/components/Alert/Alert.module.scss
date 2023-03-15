@@ -1,0 +1,63 @@
+.notFoundText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  position: fixed;
+  bottom: -80px;
+  right: 50%;
+  transform: translate(50%);
+
+  background-color: rgb(0, 176, 200);
+  padding: 20px 0 0 0;
+
+  border-radius: 8px 8px 0px 0px;
+  border: 3px solid rgba(0, 61, 70, 0.86);
+  border-bottom: none;
+  box-shadow: 2px 2px 15px #7FFD64,
+    -2px -2px 15px #7FFD64, -2px 2px 15px #7FFD64,
+    2px -2px 15px #7FFD64;
+
+  animation: running-ball linear 4500ms;
+  
+  @keyframes running-ball {
+    0% {
+      bottom: -80px;
+    }
+    5% {
+      bottom: 0;
+    }
+    95% {
+      bottom: 0;
+    }
+    100% {
+      bottom: -80px;
+    }
+  }
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #081f32;
+  margin-bottom: 5px;
+}
+.timer {
+  width: 1px;
+  height: 5px;
+  background-color: rgba(0, 61, 70, 0.86);
+  animation: timer linear 4180ms;
+  
+  @keyframes timer {
+    0% {
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 95vh;
+
+    
+    font-family: "Roboto";
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #081f32;
+}
+.title{
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    margin-bottom: 50px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.portal {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff00;
+    animation: portalLink linear 20s infinite;
+  
+    @keyframes portalLink {
+      0% {
+        transform: rotate(0deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+  }

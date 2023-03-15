@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Reenbit стажування Front-end. Тестове завдання
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Використовуючи ReaсtJS (бажано але можна Angular чи будь-який інший фреймворк)
+реалізувати завдання з наступними вимогами:
 
-## Available Scripts
+1. Вигляд сторінок має відповідати макету за посиланням нижче:
+   https://www.figma.com/file/wsndIMMisT3mRUm59NtW6U/Rick-and-Morty-(web-
+   responsive)-(Community)?node-id=0%3A1&amp;t=zXvvbBwrY5qV6cIh-0
+   ! HTML/SCSS бажано писати власні без використання UI бібліотек.
+2. Дизайн має бути адаптивний (як на макеті).
+3. При старті аплікації у користувача має йти запит до API і відмальовуватись
+   список персонажів з мультфільму. Список персонажів має бути відсортований
+   по імені.
+4. Клікнувши на окремого персонажа має йти запит по окремому персонажу і бути
+   перенаправлення на інший роут з більш детальною інформацією про нього.
+5. Кнопка “go back” має перенаправляти на попередній роут зі списком персонажів.
+6. Реалізувати пошук серед персонажів по їх імені. (при введені імені персонажу
+   список має фільтруватись і показувати лише співпадіння з пошуком, список
+   персонажів також має бути відсортований по імені).
+7. При перезавантаженні сторінки чи переході по роутам дані пошуку мають
+   зберігатись.
+8. Крім коду обов&#39;язково має бути лінка на задеплоєну аплікацію - інші
+   варіанти не будуть розглядатись.
+   Посилання на макет: https://www.figma.com/file/wsndIMMisT3mRUm59NtW6U/Rick-
+   and-Morty-(web-responsive)-(Community)?node-id=0%3A1&amp;t=zXvvbBwrY5qV6cIh-0
+   Посилання на API: https://rickandmortyapi.com/documentation
 
-In the project directory, you can run:
+Додаткове завдання:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Логін через сторонні провайдери (GMAIL, FB, etc.) - хоча б один із.
