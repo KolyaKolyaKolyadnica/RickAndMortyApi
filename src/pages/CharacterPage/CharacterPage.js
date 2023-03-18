@@ -35,7 +35,6 @@ function CharacterPage({ api }) {
   return (
     <div className={style.container}>
       <GoBackBtn />
-      <CharacterCardSkeleton />
       {status === "pending" && <CharacterCardSkeleton />}
       {status === "fulfilled" && <CharacterCard character={character} />}
       {status === "rejected" && <Alert error={character.error} />}

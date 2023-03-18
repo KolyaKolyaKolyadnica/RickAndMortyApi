@@ -20,6 +20,10 @@
   @media (min-width: 922px) {   
     width: 240px;
   }
+
+  &:hover{
+    transform: scale(1.02)
+  }
 }
 .link {
   text-decoration: none;  
