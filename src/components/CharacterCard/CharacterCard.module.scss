@@ -1,8 +1,14 @@
 .characterCard {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 142px;
+  
+  width: 312px;
+  @media (min-width: 460px) {
+    width: 413px;
+  }
 }
 
 .avatar {
@@ -10,7 +16,7 @@
   left: 109px;
 
   border: 5px solid #F2F2F7;
-  border-radius: 150px;
+  border-radius: 50%;
   
   margin-bottom: 34px;
   
@@ -35,7 +41,7 @@
   width: 318.9333190917969px;
 
   /*custom*/
-  margin-bottom: 48px;
+  margin-bottom: 34.47px;
   justify-content: center;
 
   @media (min-width: 460px) {
@@ -43,6 +49,7 @@
     line-height: 56px;
     width: 500px;
     min-height: 50px;
+    margin-bottom: 48px;   
   }
 }
 .info {
@@ -57,7 +64,13 @@
   color: #8e8e93;
 
   /*custom*/
-  margin-bottom: 48px;
+  margin-bottom: 16px;  
+  width: 100%;
+  position: relative;
+  left: 16px;
+  @media (min-width: 460px) {
+    width: auto;
+  }
 }
 
 .list {
@@ -129,17 +142,19 @@
 
   height: 1px;
   width: 298.13330078125px;
+  background: rgba(33, 33, 33, 0.08);
+
+  @media (min-width: 460px) {   
+    width: 394.64px;
+  }
 
   &::after {
     content: '';
     position: absolute;
     left: 0%;
     right: 0%;
-    top: calc(50% - 1px/2);
 
-    background: rgba(33, 33, 33, 0.08);
     mix-blend-mode: normal;
-    
-    width: 394.64px;
+    width: 100%;
   }
 }

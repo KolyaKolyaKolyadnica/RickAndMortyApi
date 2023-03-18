@@ -2,7 +2,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import style from "./Pagination.module.scss";
 
 function Pagination({ maxPage, query, setStatus }) {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const page = Number(searchParams.get("page")) ? searchParams.get("page") : 1;
 
   return (
